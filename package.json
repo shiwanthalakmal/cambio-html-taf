@@ -1,0 +1,41 @@
+{
+  "name": "cambio-html-taf-demo",
+  "version": "1.0.0",
+  "description": "cambio healthcare systems site automation hybrid demo test",
+  "author": "cambio healthcare systems",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "e2e-compile": "tsc -p e2e",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "Xtest": "protractor target/cambio-stella-tablet-standard/ConfigSuites.js --suite general",
+	"Xtest": "protractor target/cambio-stella-physician-standard/ConfigSuites.js --suite general",
+    "Xtest": "protractor target/cambio-stella-ward-standard/ConfigSuites.js --suite general"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "@types/jasmine": "^2.8.6",
+    "protractor": "^5.3.0",
+    "typescript": "^2.7.2",
+    "typescript-logging": "^0.5.0",
+    "typescript-map": "0.0.5"
+  },
+  "devDependencies": {
+    "@types/gulp-protractor": "^1.0.31",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-console-reporter": "^2.0.1",
+    "jasmine-data_driven_tests": "^1.0.0",
+    "protractor-beautiful-reporter": "^1.2.1",
+    "protractor-helpers": "^1.1.0",
+    "protractor-html-screenshot-reporter": "0.0.21",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "ts-json-properties": "^2.0.2"
+  },
+  "repository": {
+    "type": "svn",
+    "url": "https://subversion.cambio.se/PC/Standard/cambio-html-taf/"
+  }
+}

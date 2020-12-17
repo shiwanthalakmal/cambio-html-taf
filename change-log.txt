@@ -1,0 +1,25 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## 0.0.1 - 2017-03-10
+### Added
+- Log4j file appender support with error categorization
+- Support cross browser test execution
+- Finalize hybrid type test level
+- Introduce .json based object repository concepts
+- Refactor test level to support CI
+- Load new browser window for each test
+- This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
+- Selenium server install/update & start cli runner task runner
+- Typescript supportive framework design
+- Typescript log4j support
+- Framework emailable execution report
+- Fully supported protractor api
+- Test design using jasmine api
+- Support basic page object design
+- Support data driven test cases
+- Integration with third party dashboard
+- Test suite level execution support
+- Introduce custom exceptions handling
+- Protractor wrapper helper class for navigation, waits, action and asserions
+
